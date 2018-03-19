@@ -1,9 +1,11 @@
 ---
 title: Test
-description: Test
+description: >-
+  Test
+
 
 ---
-## Sample exercise
+## normal
 
 ```yaml
 type: NormalExercise
@@ -14,26 +16,74 @@ key: 731195fe65
 ```
 
 
+
 `@instructions`
+
 
 `@hint`
 
+
+
+
+
+
+
+
+
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+
+xp: NaN
+
+key: e50ca201f4
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+
+xp: 
+
+key: afbacc09c2
+```
+
+lasndlksankldas
+
+`@instructions`
+- 1
+- 2
+
+`@hint`
+hint
+
 `@pre_exercise_code`
-```{python}
-
+```{}
+import a from b
 ```
 
-`@sample_code`
-```{python}
 
-```
 
-`@solution`
-```{python}
 
-```
 
-`@sct`
-```{python}
 
-```
+
